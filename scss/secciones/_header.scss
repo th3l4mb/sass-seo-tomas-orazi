@@ -4,6 +4,17 @@
     display: $flexbox;
     justify-content: space-between;
     align-items: center;
+    &__logo {
+        h1{
+            text-align: center;
+        }
+        h2 {
+            width: 5px;
+            height: 5px;
+            text-align: center;
+           color: black;
+        }
+    }
     &__logo img{
     margin-left: 1rem;
     width: 70px;

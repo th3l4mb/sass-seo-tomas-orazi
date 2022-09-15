@@ -29,6 +29,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .header__logo h1 {
+    text-align: center; }
+  .header__logo h2 {
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    color: black; }
   .header__logo img {
     margin-left: 1rem;
     width: 70px;
