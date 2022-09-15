@@ -1,0 +1,19 @@
+.header{
+    @extend %estiloPrincipal;
+    border: 5px solid black;
+    display: $flexbox;
+    justify-content: space-between;
+    align-items: center;
+    &__logo img{
+    margin-left: 1rem;
+    width: 70px;
+    height: 70px;
+    }
+    &__ul{
+display: flex;
+list-style: none;
+li {
+    padding: 1rem;
+}
+    }
+}

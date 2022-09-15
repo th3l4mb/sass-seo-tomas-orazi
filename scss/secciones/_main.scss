@@ -1,0 +1,26 @@
+.main {
+   @extend %estilomain;
+    &__cards {
+        img {
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+        }
+    }
+    .aside {
+        display: flex;
+        img {
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+        }
+    }
+    &__texto {
+        margin: 5px;
+        padding: 20px;
+       @include estiloTexto(20px);
+        h2{
+            text-decoration: line-through;
+        }
+    }
+}

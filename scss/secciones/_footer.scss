@@ -1,0 +1,8 @@
+.footer {
+  @extend %estiloFooter;
+    &__redes {
+        display: flex;
+        color: brown;
+
+    }
+}
